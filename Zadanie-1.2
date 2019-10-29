@@ -1,0 +1,12 @@
+import random
+a=random.randint(1,5)
+b=-1
+while b!=a: 
+    b=int(input("Угадай число от (1 до 5)")) 
+    if b > a: 
+        print("Число должно быть меньше")
+    elif b < a: 
+        print("Число должно быть больше") 
+    else: 
+        print("Вы угадали, это число = " + str(a)) 
+        
